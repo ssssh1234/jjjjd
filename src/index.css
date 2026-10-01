@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+}
+
+.font-cinzel {
+  font-family: var(--font-serif);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Casino Felt Texture */
+.casino-felt {
+  background-color: #0b4528;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(20, 110, 65, 0.4) 0%, rgba(7, 43, 24, 0.95) 100%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.015) 0px, rgba(255, 255, 255, 0.015) 1px, transparent 1px, transparent 6px);
+}
+
+.casino-felt-baccarat {
+  background-color: #0d3830;
+  background-image: 
+    radial-gradient(circle at 50% 40%, rgba(22, 101, 89, 0.45) 0%, rgba(6, 32, 28, 0.98) 100%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.01) 0px, rgba(255, 255, 255, 0.01) 1px, transparent 1px, transparent 8px);
+}
+
+.casino-wood-rim {
+  background: linear-gradient(180deg, #3d2314 0%, #20120a 50%, #150a05 100%);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.1), 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+/* Gold Gradient Shimmer */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #fce881 0%, #dfa52b 50%, #b88615 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 1px solid rgba(223, 165, 43, 0.35);
+}
+
+/* Hide scrollbars for slick tables */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

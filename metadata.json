@@ -1,0 +1,6 @@
+{
+  "name": "Grand Vegas Virtual Casino & Card Suite",
+  "description": "Virtual gaming hub featuring Malaysia 4D Lottery with official draw times and odds, animated 777 Slots, Royal Baccarat, Blackjack, and a real-time virtual cashier settlement system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
